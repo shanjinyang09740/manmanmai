@@ -1,0 +1,39 @@
+*,::before,::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-size: 14px;
+  color:#333;
+  font-family:"Microsoft YaHei";
+}
+a {
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+input{
+  border:none;
+  outline: none;
+  resize: none;
+  -webkit-appearance: none;
+}
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: block;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+  clear:both;
+}
+.sn_container{
+  width: 100%;
+  max-width: 750px;
+  min-width: 320px;
+  margin: 0 auto;
+  padding-top: 90/100rem;
+  padding-bottom: 1rem;
+}

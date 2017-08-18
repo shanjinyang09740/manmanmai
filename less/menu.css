@@ -1,0 +1,26 @@
+/*menu部分*/
+#menu {
+  text-align: center;
+  border-top: 0.1rem solid #ccc;
+  padding: 0.1rem 0;
+  cursor: pointer;
+}
+#menu .menu_item {
+  width: 25%;
+  float: left;
+}
+#menu .menu_item a {
+  font-size: 0.12rem;
+  display: block;
+}
+#menu .menu_item a img {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+#menu .menu_item a p {
+  margin-top: 0.05rem;
+  font-size: 0.12rem;
+}
+#menu .menu_item:nth-last-child(-n+4) {
+  display: none;
+}

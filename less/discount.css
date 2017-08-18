@@ -1,0 +1,61 @@
+/*discount部分*/
+#discount {
+  width: 100%;
+}
+#discount .discount_title {
+  height: 0.35rem;
+  line-height: 0.35rem;
+  background-color: #ff841d;
+  padding: 0 0.1rem;
+}
+#discount .discount_title span {
+  font-size: 0.16rem;
+  color: #fff;
+  float: left;
+}
+#discount .discount_title img {
+  width: 0.2rem;
+  height: 0.2rem;
+  margin-top: 0.07rem;
+  float: right;
+}
+#discount .discount_product .media {
+  margin-top: 0.2rem;
+}
+#discount .discount_product .media .media-left a img {
+  width: 1rem;
+  height: 1rem;
+}
+#discount .discount_product .media .media-body {
+  padding-left: 0.1rem;
+  padding-right: 0.05rem;
+}
+#discount .discount_product .media .media-body h4 {
+  font-size: 0.16rem;
+}
+#discount .discount_product .media .media-body .media-other {
+  margin-top: 0.4rem;
+  font-size: 0.12rem;
+  color: #ccc;
+}
+#discount .discount_product .media .media-body .media-other .other-time {
+  float: left;
+}
+#discount .discount_product .media .media-body .media-other .other-talk {
+  float: right;
+}
+#discount .discount_more {
+  padding: 0.1rem;
+  margin-top: 0.1rem;
+  margin-bottom: 0.2rem;
+}
+#discount .discount_more a {
+  display: block;
+  height: 0.3rem;
+  line-height: 0.3rem;
+  font-size: 0.16rem;
+  color: #0f0f0f;
+  background-color: #F4F4F4;
+  border-radius: 10px;
+  text-align: center;
+}

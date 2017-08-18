@@ -1,0 +1,25 @@
+/*search部分*/
+#search {
+  width: 100%;
+}
+#search .search_form {
+  padding: 0.1rem;
+  display: flex;
+  font-size: 0.14rem;
+}
+#search .search_form input[type="text"] {
+  flex: 1;
+  height: 0.3rem;
+  padding-left: 0.1rem;
+  border-radius: 0.15rem;
+  background-color: #f1f1f1;
+  float: left;
+}
+#search .search_form input[type="button"] {
+  margin-left: 0.1rem;
+  width: 0.63rem;
+  height: 0.3rem;
+  border-radius: 0.15rem;
+  background-color: #ff841d;
+  color: #fff;
+}

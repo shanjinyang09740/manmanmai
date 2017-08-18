@@ -1,0 +1,8 @@
+.adapterFuc(@index) when (@index > 0){
+  @media (min-width: extract(@adapterList,@index)){
+    html{
+      font-size: extract(@adapterList,@index)/@baseWidth*@baseFontSize;
+    }
+  };
+  .adapterFuc(@index - 1);
+}

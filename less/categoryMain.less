@@ -1,0 +1,38 @@
+/*category分类部分*/
+#category{
+  .category_product{
+    >li{
+      >a{
+        display: block;
+        height: 40/100rem;
+        line-height: 40/100rem;
+        color:#000;
+        font-size: 20/100rem;
+        font-weight:700;
+        padding-left:16/100rem;
+        border-bottom:1px solid #ccc;
+        background: url(http://www.zuyushop.com/wap/images/arrow1.gif) right center no-repeat;
+        background-color: #ededed;
+      }
+      >ul{
+        display: none;
+        >li{
+          text-align: center;
+          float: left;
+          width: 33.3%;
+          height:35/100rem;
+          line-height: 35/100rem;
+          border-bottom:1/100rem solid #ccc;
+          border-right:1/100rem solid #ccc;
+          >a{
+            font-size: 14/100rem;
+            color:#000;
+          }
+        }
+        >li:nth-child(3n){
+          border-right:none;
+        }
+      }
+    }
+  }
+}

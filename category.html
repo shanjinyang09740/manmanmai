@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>买卖(分类)</title>
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./less/category.css">
+
+</head>
+<body>
+<!--header部分-->
+<div id="header" class="clearfix">
+    <div class="logo">
+        <a href="#">
+            <img src="./images/header_logo.png" alt="">
+        </a>
+    </div>
+    <div class="app_download">
+        <a href="#">
+            <img src="./images/header_app.png" alt="">
+        </a>
+    </div>
+</div>
+
+<!--search部分-->
+<div id="search" class="clearfix">
+    <div class="search_form">
+        <input type="text" name="" placeholder="请输入您选择的商品">
+        <input type="button" value="搜索">
+    </div>
+</div>
+
+<!--category部分-->
+<div id="category">
+    <ul class="category_product">
+        <li>
+            <a href="#">大家电</a>
+            <ul class="clearfix">
+                <li><a href="#">电视机</a></li>
+                <li><a href="#">电视机</a></li>
+                <li><a href="#">电视机</a></li>
+                <li><a href="#">电视机</a></li>
+                <li><a href="#">电视机</a></li>
+                <li><a href="#">电视机</a></li>
+                <li><a href="#">电视机</a></li>
+                <li><a href="#">电视机</a></li>
+                <li><a href="#">电视机</a></li>
+                <li><a href="#">电视机</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">大家电</a>
+            <ul class="clearfix">
+                <li><a href="#">电视机</a></li>
+                <li><a href="#">电视机</a></li>
+                <li><a href="#">电视机</a></li>
+                <li><a href="#">电视机</a></li>
+                <li><a href="#">电视机</a></li>
+                <li><a href="#">电视机</a></li>
+                <li><a href="#">电视机</a></li>
+                <li><a href="#">电视机</a></li>
+                <li><a href="#">电视机</a></li>
+                <li><a href="#">电视机</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">大家电</a>
+            <ul class="clearfix">
+                <li><a href="#">电视机</a></li>
+                <li><a href="#">电视机</a></li>
+                <li><a href="#">电视机</a></li>
+                <li><a href="#">电视机</a></li>
+                <li><a href="#">电视机</a></li>
+                <li><a href="#">电视机</a></li>
+                <li><a href="#">电视机</a></li>
+                <li><a href="#">电视机</a></li>
+                <li><a href="#">电视机</a></li>
+                <li><a href="#">电视机</a></li>
+            </ul>
+        </li>
+    </ul>
+
+</div>
+
+<!--footer部分-->
+<div id="footer">
+    <div class="login_top">
+        <div class="login"><a href="#">登录</a></div>
+        <div class="register"><a href="#">注册</a></div>
+        <div class="goTop">
+            <a href="#">
+                <img src="http://www.zuyushop.com/wap/images/top.jpg" alt="">
+                <span>返回顶部</span>
+            </a>
+        </div>
+    </div>
+    <div class="login_bottom">
+        <span>手机APP下载</span>
+        <span>慢慢买手机版</span>
+        <span>掌上比价平台</span>
+        <p>m.manmanbuy.com</p>
+    </div>
+</div>
+<!--模板-->
+<script type="text/html" id="category_menu">
+    {{each result as value index}}
+    <li>
+        <a href="#" data-title-id={{value.titleId}}>{{value.title}}</a>
+        <ul class="clearfix">
+
+        </ul>
+    </li>
+
+
+
+    {{/each}}
+</script>
+
+<script type="text/html" id="category_content">
+    {{each result as value index}}
+    <li><a href="#">{{value.category}}</a></li>
+
+    {{/each}}
+</script>
+
+</body>
+</html>
+<script src="./lib/jquery/jquery.min.js"></script>
+<script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="./js/template.js"></script>
+<script src="./js/category.js"></script>

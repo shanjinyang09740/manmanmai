@@ -1,0 +1,38 @@
+/*footer部分*/
+#footer .login_top {
+  border: 1px solid #ccc;
+  height: 0.35rem;
+  line-height: 0.35rem;
+  text-align: center;
+}
+#footer .login_top .login {
+  float: left;
+  width: 33.3%;
+  border-right: 1px solid #ccc;
+}
+#footer .login_top .register {
+  float: left;
+  width: 33.3%;
+  border-right: 1px solid #ccc;
+}
+#footer .login_top .goTop {
+  float: left;
+  width: 33.3%;
+}
+#footer .login_top .goTop a img {
+  height: 0.3rem;
+  width: 0.3rem;
+}
+#footer .login_bottom {
+  text-align: center;
+  margin-top: 0.2rem;
+}
+#footer .login_bottom span {
+  margin-right: 0.1rem;
+}
+#footer .login_bottom span:first-child {
+  color: red;
+}
+#footer .login_bottom p {
+  margin-top: 0.1rem;
+}
